@@ -59,7 +59,11 @@ BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 BOARD_KERNEL_SEPARATED_DTBO := true
 TARGET_KERNEL_CONFIG := ossi_defconfig
 TARGET_KERNEL_SOURCE := kernel/oplus/ossi
-
+# kernel and kernel module github repositories
+#
+# https://github.com/OnePlusOSS/android_kernel_oneplus_mt6833
+# https://github.com/OnePlusOSS/android_kernel_modules_oneplus_mt6833
+#
 # Kernel - prebuilt
 TARGET_FORCE_PREBUILT_KERNEL := true
 ifeq ($(TARGET_FORCE_PREBUILT_KERNEL),true)

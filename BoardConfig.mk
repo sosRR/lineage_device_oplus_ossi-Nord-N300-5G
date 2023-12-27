@@ -94,6 +94,27 @@ TARGET_RECOVERY_PIXEL_FORMAT := RGBX_8888
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
 
+# Specify the default orientation
+BOARD_DEFAULT_ORIENTATION := portrait
+
+# Set the default locale
+BOARD_DEFAULT_LANGUAGE := en
+BOARD_DEFAULT_REGION := US
+
+# Specify the supported locales
+BOARD_AVAILABLE_LOCATIONS := en_US
+
+# Set the default time zone
+BOARD_DEFAULT_TIMEZONE := America/Chicago
+
+# Specify the system user and group
+BOARD_SYSTEM_USER := system
+BOARD_SYSTEM_GROUP := system
+
+# Set the target user
+BOARD_USER := user
+BOARD_USERIMAGES_USE_SYSTEM := true
+
 # Set the build-specific properties
 BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
 BOARD_BUILD_USERDATAIMAGE := true

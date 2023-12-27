@@ -27,6 +27,18 @@ PRODUCT_PACKAGES += \
     checkpoint_gc \
     otapreopt_script
 
+# AAPT
+PRODUCT_AAPT_CONFIG := normal
+PRODUCT_AAPT_PREF_CONFIG := xxhdpi
+
+# adb
+PRODUCT_PACKAGES += \
+    adbd
+
+# Boot animation
+TARGET_SCREEN_HEIGHT := 1612
+TARGET_SCREEN_WIDTH := 720
+
 # fastbootd
 PRODUCT_PACKAGES += \
     android.hardware.fastboot@1.1-impl-mock \

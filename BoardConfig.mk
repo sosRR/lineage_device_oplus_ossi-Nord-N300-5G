@@ -94,6 +94,14 @@ TARGET_RECOVERY_PIXEL_FORMAT := RGBX_8888
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
 
+# Set the build-specific properties
+BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
+BOARD_BUILD_USERDATAIMAGE := true
+
+# Specify the boot and recovery image build properties
+BOARD_BUILD_BOOTIMAGE := true
+BOARD_BUILD_RECOVERYIMAGE := true
+
 # Security patch level
 VENDOR_SECURITY_PATCH := 2021-08-01
 

@@ -138,6 +138,10 @@ TARGET_BOARD_PLATFORM_MTK := true
 # Specify the graphics memory allocation
 BOARD_GRALLOC_ION := true
 
+# Specify security configurations
+BOARD_SUPPORTS_FILE_ENCRYPTION := true
+BOARD_SUPPORTS_FULL_DISK_ENCRYPTION := true
+
 # Verified Boot
 BOARD_AVB_ENABLE := true
 BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 3

@@ -100,6 +100,9 @@ VENDOR_SECURITY_PATCH := 2021-08-01
 # Set the OEM unlock support
 BOARD_HAS_OEMLOCK := true
 
+# Specify the platform-specific flags
+TARGET_BOARD_PLATFORM_MTK := true
+
 # Specify the graphics memory allocation
 BOARD_GRALLOC_ION := true
 

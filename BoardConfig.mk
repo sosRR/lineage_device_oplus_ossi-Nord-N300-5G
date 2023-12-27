@@ -157,6 +157,9 @@ BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 3
 # VINTF
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
+# VNDK
+BOARD_VNDK_VERSION := current
+
 # set Vulkan configurations
 BOARD_VULKAN := true
 BOARD_USES_VULKAN := true

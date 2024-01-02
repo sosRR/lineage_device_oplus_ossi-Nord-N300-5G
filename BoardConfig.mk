@@ -155,7 +155,7 @@ BOARD_GRALLOC_ION := true
 BOARD_SUPPORTS_FILE_ENCRYPTION := true
 BOARD_SUPPORTS_FULL_DISK_ENCRYPTION := true
 
-# Specify USB configurations
+# USB configurations
 BOARD_USB_MTP := true
 BOARD_USB_PTP := true
 

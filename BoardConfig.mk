@@ -75,6 +75,11 @@ BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilts/dtbo.img
 BOARD_KERNEL_SEPARATED_DTBO := 
 endif
 
+KERNEL_VERSION := 4.19
+SOONG_CONFIG_NAMESPACES += qti_kernel_headers
+SOONG_CONFIG_qti_kernel_headers := version
+SOONG_CONFIG_qti_kernel_headers_version := $(KERNEL_VERSION)
+
 # Set networking configurations
 BOARD_HAS_WIFI := true
 BOARD_WIFI_DEVICE_ENG := true

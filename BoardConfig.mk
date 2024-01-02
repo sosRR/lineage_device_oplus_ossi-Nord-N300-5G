@@ -128,7 +128,6 @@ BOARD_USER := user
 BOARD_USERIMAGES_USE_SYSTEM := true
 
 # Set the build-specific properties
-BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
 BOARD_BUILD_USERDATAIMAGE := true
 
 # Specify the boot and recovery image build properties
